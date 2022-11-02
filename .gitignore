@@ -1,0 +1,48 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# testing
+coverage
+test-results
+test-dapp-react/package-lock.json
+videos
+
+# next.js
+.next/
+out/
+build
+
+# misc
+.DS_Store
+*.pem
+verdaccio/conf/htpasswd
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+# .env.development.local
+./apps/checkout/.env.local
+.env.local
+.env.test.local
+.env.production.local
+
+# turbo
+.turbo
+
+
+.vercel
+.parcel-cache
+firebase-debug.log
+
+
+dist
+
+.idea

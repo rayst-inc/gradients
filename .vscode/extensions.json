@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "styled-components.vscode-styled-components",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint"
+  ],
+  "unwantedRecommendations": []
+}
