@@ -29,7 +29,7 @@ export const SEO: DefaultSeoProps = {
     ],
   },
   twitter: {
-    handle: '@handle',
+    handle: '@rayst_inc',
     cardType: 'summary_large_image',
   },
 }
