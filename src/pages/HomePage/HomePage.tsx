@@ -1,11 +1,12 @@
 import { description, title } from 'lib/next-seo'
 import Image from 'next/image'
 import { shuffle } from 'utils/shuffle'
+import { Footer } from '../../components/Footer'
 
 export function HomePage() {
   return (
     <>
-      <div className="flex w-full flex-col gap-8 py-16 text-white">
+      <div className="flex w-full flex-col gap-8 pt-16 text-white">
         <div className="mx-auto w-full max-w-5xl">
           <div className="flex flex-col">
             <h1 className="p-1 text-center text-3xl font-black">{title}</h1>
@@ -26,6 +27,7 @@ export function HomePage() {
             ))}
           </div>
         </div>
+        <Footer />
       </div>
     </>
   )
