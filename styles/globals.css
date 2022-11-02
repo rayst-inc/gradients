@@ -4,7 +4,7 @@
 
 html {
   background: black;
-  font-family: -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+  font-family: Inter, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
     'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR',
     'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
     sans-serif;
@@ -17,10 +17,13 @@ html {
 html,
 body,
 #__next {
-  overflow: hidden;
+  height: 100%;
+  overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
 }
 
 *::selection {
   color: #000;
+  /* gradient */
+  background: white;
 }

@@ -8,16 +8,18 @@
   },
   "license": "MIT",
   "dependencies": {
-    "components": "link:./src/pages/components",
+    "@vercel/og": "^0.0.20",
     "api": "link:./src/api",
+    "components": "link:./src/pages/components",
+    "lib": "link:./src/lib",
     "next": "^13.0.1",
     "next-seo": "^5.13.0",
     "pages": "link:./pages",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "src": "link:./src",
-    "lib": "link:./src/lib",
-    "styles": "link:./styles"
+    "styles": "link:./styles",
+    "utils": "link:./src/utils"
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
