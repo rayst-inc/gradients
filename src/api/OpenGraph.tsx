@@ -41,6 +41,10 @@ export const OpenGraph = async (req: NextRequest) => {
       </div>
     ),
     {
+      headers: {
+        'Cache-Control':
+          'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0',
+      },
       width: 1200,
       height: 630,
       fonts: [
