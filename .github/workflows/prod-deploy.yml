@@ -1,0 +1,16 @@
+name: Production Deploy
+
+on: workflow_dispatch
+
+jobs:
+  sync-branch:
+    name: Production Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@master
+      - uses: connor-baer/action-sync-branch@main
+        with:
+          branch: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
