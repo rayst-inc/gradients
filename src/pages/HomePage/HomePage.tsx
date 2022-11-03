@@ -15,6 +15,17 @@ export function HomePage() {
             </h1>
             <p className="p-4 text-center text-lg">{description}</p>
           </div>
+          <div className="mt-2 flex place-content-center">
+            <a
+              className="github-button"
+              href="https://github.com/rayst-inc/gradients"
+              data-color-scheme="no-preference: dark; light: dark; dark: dark;"
+              data-icon="octicon-star"
+              aria-label="Star rayst-inc/gradients on GitHub"
+            >
+              Star
+            </a>
+          </div>
           <div className="grid w-full grid-cols-2 gap-8 p-8 md:grid-cols-3 lg:grid-cols-4">
             <AnimatePresence>
               {shuffle([...Array(44)].map((_, i) => i + 1)).map((i) => (
