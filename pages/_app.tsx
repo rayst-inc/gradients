@@ -19,7 +19,6 @@ export default function App({ Component, pageProps }: AppProps) {
 
       <NextSeo {...SEO} />
       <Component {...pageProps} />
-      <Script async defer src="https://buttons.github.io/buttons.js"></Script>
       {isProd() && (
         <Script
           async

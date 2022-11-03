@@ -18,15 +18,14 @@ export function HomePage() {
             <p className="p-4 text-center text-lg">{description}</p>
           </div>
           <div className="mt-2 flex place-content-center">
-            <a
-              className="umami--click--github-star github-button"
-              href="https://github.com/rayst-inc/gradients"
-              data-color-scheme="no-preference: dark; light: dark; dark: dark;"
-              data-icon="octicon-star"
-              aria-label="Star rayst-inc/gradients on GitHub"
-            >
-              Star
-            </a>
+            <iframe
+              className="umami--click--github-star"
+              src="https://ghbtns.com/github-btn.html?user=rayst-inc&repo=gradients&type=star&count=false"
+              scrolling="0"
+              width="54"
+              height="20"
+              title="GitHub"
+            ></iframe>
           </div>
           <div className="grid w-full grid-cols-2 gap-8 p-8 md:grid-cols-3 lg:grid-cols-4">
             <AnimatePresence>
