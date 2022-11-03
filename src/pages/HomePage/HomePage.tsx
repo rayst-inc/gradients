@@ -17,8 +17,8 @@ export function HomePage() {
             </h1>
             <p className="p-4 text-center text-lg">
               {description.replace(
-                'Gradients',
-                `${NUMBER_OF_IMAGES} Gradients`,
+                'Beautiful',
+                `${NUMBER_OF_IMAGES} Beautiful`,
               )}
             </p>
           </div>
