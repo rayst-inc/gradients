@@ -10,7 +10,7 @@
   "dependencies": {
     "@vercel/og": "^0.0.20",
     "api": "link:./src/api",
-    "components": "link:./src/pages/components",
+    "components": "link:./src/components",
     "framer-motion": "^7.6.4",
     "lib": "link:./src/lib",
     "next": "^13.0.1",
