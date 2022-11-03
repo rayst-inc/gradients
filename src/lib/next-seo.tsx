@@ -1,4 +1,5 @@
 import { DefaultSeoProps } from 'next-seo'
+import { getBaseURL } from 'utils/getBaseURL'
 
 export const title = 'Rayst Gradients'
 
@@ -20,7 +21,7 @@ export const SEO: DefaultSeoProps = {
     description,
     images: [
       {
-        url: `/api/og`,
+        url: `${getBaseURL()}/api/og`,
         alt: title,
         type: 'image/png',
         width: 1200,
