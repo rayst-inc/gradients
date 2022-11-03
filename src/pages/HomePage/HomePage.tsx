@@ -46,7 +46,7 @@ export function HomePage() {
                   </div>
                   <Image
                     priority
-                    className="rounded-lg"
+                    className="rounded-lg border-white group-hover:border-4"
                     src={`/gradients/${i}.gradients.ray.st.jpeg`}
                     width={1000}
                     height={1000}
