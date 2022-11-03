@@ -24,7 +24,7 @@ export function HomePage() {
                   whileHover={{ scale: 1.1 }}
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
-                  href={`/${i}.jpeg`}
+                  href={`/${i}.gradients.ray.st.jpeg`}
                   download
                 >
                   <div className="absolute inset-0 z-10 m-auto h-16 w-16 rounded-lg bg-black/50 opacity-0 backdrop-blur transition duration-100 group-hover:opacity-100">
@@ -47,7 +47,7 @@ export function HomePage() {
                   <Image
                     priority
                     className="rounded-lg"
-                    src={`/${i}.jpeg`}
+                    src={`/${i}.gradients.ray.st.jpeg`}
                     width={1000}
                     height={1000}
                     alt="gradients"
@@ -56,6 +56,13 @@ export function HomePage() {
               ))}
             </AnimatePresence>
           </div>
+        </div>
+        <div className="self-center">
+          <p className="p-4 text-left text-xs leading-5">
+            ✅ All gradients can be downloaded and used for free <br></br>✅
+            Commercial and non-commercial purposes <br></br>✅ No permission
+            needed (though attribution is appreciated.)
+          </p>
         </div>
         <Footer />
       </div>
