@@ -4,7 +4,7 @@ import { description, title } from 'lib/next-seo'
 import Image from 'next/image'
 import { shuffle } from 'utils/shuffle'
 
-export const NUMBER_OF_IMAGES = 52
+export const NUMBER_OF_IMAGES = 51
 
 export function HomePage() {
   return (
