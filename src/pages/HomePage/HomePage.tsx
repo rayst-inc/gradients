@@ -19,7 +19,7 @@ export function HomePage() {
           </div>
           <div className="mt-2 flex place-content-center">
             <a
-              className="github-button"
+              className="umami--click--github-star github-button"
               href="https://github.com/rayst-inc/gradients"
               data-color-scheme="no-preference: dark; light: dark; dark: dark;"
               data-icon="octicon-star"
