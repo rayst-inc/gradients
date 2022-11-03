@@ -4,7 +4,7 @@ import { description, title } from 'lib/next-seo'
 import Image from 'next/image'
 import { shuffle } from 'utils/shuffle'
 
-export const NUMBER_OF_IMAGES = 51
+export const NUMBER_OF_IMAGES = 52
 
 export function HomePage() {
   return (
@@ -15,7 +15,12 @@ export function HomePage() {
             <h1 className="bg-gradient-to-r from-amber-200 to-cyan-400 bg-clip-text p-1 text-center text-5xl font-black text-transparent">
               {title}
             </h1>
-            <p className="p-4 text-center text-lg">{description}</p>
+            <p className="p-4 text-center text-lg">
+              {description.replace(
+                'Gradients',
+                `${NUMBER_OF_IMAGES} Gradients`,
+              )}
+            </p>
           </div>
           <div className="mt-2 flex place-content-center">
             <iframe
