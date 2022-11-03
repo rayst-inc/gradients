@@ -34,7 +34,7 @@ export function HomePage() {
                 (i) => (
                   <motion.a
                     key={i}
-                    className={`group grid place-content-center umami—-click—-${i}—-download`}
+                    className={`group grid place-content-center umami--click--${i}-download`}
                     whileHover={{ scale: 1.1 }}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
