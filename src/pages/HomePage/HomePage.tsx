@@ -20,7 +20,7 @@ export function HomePage() {
               {shuffle([...Array(44)].map((_, i) => i + 1)).map((i) => (
                 <motion.a
                   key={i}
-                  className="group grid place-content-center"
+                  className={`group grid place-content-center umami—click—${i}—download`}
                   whileHover={{ scale: 1.1 }}
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
