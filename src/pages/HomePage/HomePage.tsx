@@ -17,7 +17,7 @@ export function HomePage() {
           </div>
           <div className="grid w-full grid-cols-2 gap-8 p-8 md:grid-cols-3 lg:grid-cols-4">
             <AnimatePresence>
-              {shuffle([...Array(32)].map((_, i) => i + 1)).map((i) => (
+              {shuffle([...Array(44)].map((_, i) => i + 1)).map((i) => (
                 <motion.a
                   key={i}
                   className="group grid place-content-center"
