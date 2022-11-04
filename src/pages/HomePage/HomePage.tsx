@@ -33,12 +33,7 @@ export function HomePage() {
             <h1 className="bg-gradient-to-r from-amber-200 to-cyan-400 bg-clip-text p-1 text-center text-5xl font-black text-transparent">
               {title}
             </h1>
-            <p className="p-4 text-center text-lg">
-              {description.replace(
-                'Beautiful',
-                `${NUMBER_OF_IMAGES} Beautiful`,
-              )}
-            </p>
+            <p className="p-4 text-center text-lg">{description}</p>
           </div>
           <div className="mt-2 flex place-content-center">
             <a
@@ -67,7 +62,7 @@ export function HomePage() {
                     whileHover={{ scale: 1.1 }}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    href={`/gradients/${i}.gradients.ray.st.jpeg`}
+                    href={`/gradients/${i}-hd.gradients.ray.st.png`}
                     download
                   >
                     <div className="absolute inset-0 z-10 m-auto h-16 w-16 rounded-lg bg-black/50 opacity-0 backdrop-blur transition duration-100 group-hover:opacity-100">
