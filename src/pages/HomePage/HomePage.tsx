@@ -15,12 +15,7 @@ export function HomePage() {
             <h1 className="bg-gradient-to-r from-amber-200 to-cyan-400 bg-clip-text p-1 text-center text-5xl font-black text-transparent">
               {title}
             </h1>
-            <p className="p-4 text-center text-lg">
-              {description.replace(
-                'Beautiful',
-                `${NUMBER_OF_IMAGES} Beautiful`,
-              )}
-            </p>
+            <p className="p-4 text-center text-lg">{description}</p>
           </div>
           <div className="mt-2 flex place-content-center">
             <iframe
