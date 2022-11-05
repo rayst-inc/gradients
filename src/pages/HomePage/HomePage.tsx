@@ -62,7 +62,7 @@ export function HomePage() {
                     whileHover={{ scale: 1.1 }}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    href={`/gradients/${i}-hd.gradients.ray.st.png`}
+                    href={`/gradients/${i}.gradients.ray.st.png`}
                     download
                   >
                     <div className="absolute inset-0 z-10 m-auto h-16 w-16 rounded-lg bg-black/50 opacity-0 backdrop-blur transition duration-100 group-hover:opacity-100">
@@ -85,7 +85,8 @@ export function HomePage() {
                     <Image
                       priority
                       className="rounded-lg border-white group-hover:border-4"
-                      src={`/gradients/${i}.gradients.ray.st.jpeg`}
+                      src={`/gradients/${i}.gradients.ray.st.png`}
+                      blurDataURL={`/gradients/${i}.gradients.ray.st.png`}
                       width={1000}
                       height={1000}
                       alt="gradients"
