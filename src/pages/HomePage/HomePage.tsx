@@ -85,7 +85,8 @@ export function HomePage() {
                     <Image
                       priority
                       className="rounded-lg border-white group-hover:border-4"
-                      src={`/gradients/${i}.gradients.ray.st.jpeg`}
+                      src={`/gradients/${i}-hd.gradients.ray.st.png`}
+                      blurDataURL={`/gradients/${i}-hd.gradients.ray.st.png`}
                       width={1000}
                       height={1000}
                       alt="gradients"

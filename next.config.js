@@ -1,4 +1,8 @@
 /**
  * @type {import('next').NextConfig}
  */
-module.exports = {}
+module.exports = {
+  images: {
+    formats: ['image/avif', 'image/webp'],
+  },
+}
