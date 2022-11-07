@@ -38,14 +38,12 @@ export function HomePage() {
           <div className="mt-2 flex place-content-center">
             <a
               className="umami--click--product-hunt"
-              href="https://www.producthunt.com/posts/rayst-gradients?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-rayst&#0045;gradients"
+              href="https://www.producthunt.com/posts/rayst-gradients?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-rayst&#0045;gradients"
               target="_blank"
-              rel="noopener noreferrer"
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=365825&theme=dark"
-                alt="Rayst&#0032;Gradients - A&#0032;Collection&#0032;of&#0032;Beautiful&#0032;Gradients&#0032;Generated&#0032;By&#0032;AI&#0046; | Product Hunt"
+                src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=365825&theme=dark&period=daily"
+                alt="Rayst&#0032;Gradients - A&#0032;collection&#0032;of&#0032;beautiful&#0032;gradients&#0032;generated&#0032;by&#0032;AI | Product Hunt"
                 style={{ width: '250px', height: '54px' }}
                 width="250"
                 height="54"
