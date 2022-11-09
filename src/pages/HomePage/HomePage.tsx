@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Footer } from 'components/Footer'
 import { AnimatePresence, motion } from 'framer-motion'
 import { description, title } from 'lib/next-seo'
@@ -40,6 +41,7 @@ export function HomePage() {
               className="umami--click--product-hunt"
               href="https://www.producthunt.com/posts/rayst-gradients?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-rayst&#0045;gradients"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=365825&theme=dark&period=daily"
@@ -63,7 +65,7 @@ export function HomePage() {
                     href={`/gradients/${i}.gradients.ray.st.png`}
                     download
                   >
-                    <div className="absolute inset-0 z-10 m-auto h-16 w-16 rounded-lg bg-black/50 opacity-0 backdrop-blur transition duration-100 group-hover:opacity-100">
+                    <div className="absolute inset-0 z-10 m-auto h-16 w-16 rounded-lg bg-black/50 opacity-0 backdrop-blur transition duration-100 group-active:opacity-100 md:group-hover:opacity-100">
                       <svg
                         width="50%"
                         height="50%"
@@ -82,7 +84,7 @@ export function HomePage() {
                     </div>
                     <Image
                       priority
-                      className="rounded-lg border-white group-hover:border-4"
+                      className="rounded-lg border-white group-active:border-4 md:group-hover:border-4"
                       src={`/gradients/${i}.gradients.ray.st.png`}
                       blurDataURL={`/gradients/${i}.gradients.ray.st.png`}
                       width={1000}
