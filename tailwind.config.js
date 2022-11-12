@@ -7,4 +7,7 @@ module.exports = {
   theme: {
     extend: {},
   },
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
 }
