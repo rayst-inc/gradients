@@ -14,6 +14,7 @@ export const Footer = () => (
         }
         target="_blank"
       >
+        <span className="mr-2">Made by</span>
         <Logo />
         Rayst
       </Link>
@@ -96,19 +97,6 @@ export const Footer = () => (
         </Link>
       </span>
     </div>
-    <div className="flex flex-col">
-      <label className="mb-4">Products</label>
-      <Link href="https://g.ray.st" className={ambientLinkStyle + ' mb-2'}>
-        Rayst Gradients
-      </Link>
-      <Link href="https://e.ray.st" className={ambientLinkStyle + ' mb-2'}>
-        Rayst Emojis
-      </Link>
-      <Link href="https://d.ray.st" className={ambientLinkStyle + ' mb-2'}>
-        Rayst Domains
-      </Link>
-    </div>
-    <div className="flex flex-col"></div>
   </div>
 )
 
