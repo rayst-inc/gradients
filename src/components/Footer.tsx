@@ -5,7 +5,7 @@ const ambientLinkStyle =
   'opacity-50 hover:opacity-100 duration-200 ease-in-out transition-default '
 
 export const Footer = () => (
-  <div className="mt-24 mb-12 grid w-full grid-cols-2 gap-8 border-t border-white/10 px-16 pt-16 md:grid-cols-4">
+  <div className="mt-24 mb-12 grid w-full grid-cols-2 gap-8 border-t border-white/10 px-16 pt-12 md:grid-cols-4">
     <div className="flex flex-col md:col-span-3">
       <Link
         href="https://ray.st"
