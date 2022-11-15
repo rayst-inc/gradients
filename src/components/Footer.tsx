@@ -16,7 +16,7 @@ export const Footer = () => (
     </div>
     <div className="flex flex-col">
       <span className="grid h-4 w-full grid-flow-col place-content-end gap-2">
-        <Link href="mailto:a@ray.st">
+        <Link href="mailto:team@ray.st">
           <svg
             className="umami--click-email icon icon-tabler icon-tabler-mail  h-4 w-4 cursor-pointer opacity-50 transition-all hover:opacity-100"
             role="button"
