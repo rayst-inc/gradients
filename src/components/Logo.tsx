@@ -1,13 +1,17 @@
 import Image from 'next/image'
 
-const Logo = () => (
+export const Logo = () => (
   <Image
-    src="/r-rainbow-adjust.png"
+    src="/rayst-logo.webp"
     width="24"
     height="24"
     alt="ray icon"
     className="mr-2 rounded-md border border-zinc-500"
   />
+)
+
+export const LogoWide = () => (
+  <Image src="/rayst-logo-wide.webp" width="99" height="24" alt="ray icon" />
 )
 
 export default Logo

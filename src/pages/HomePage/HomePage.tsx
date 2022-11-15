@@ -33,7 +33,7 @@ export function HomePage() {
         <Navigation />
         <div className="mx-auto w-full max-w-5xl">
           <div className="flex flex-col">
-            <h1 className="mt-8 bg-gradient-to-r from-amber-200 to-cyan-400 bg-clip-text p-1 text-center text-4xl font-bold text-transparent md:text-6xl">
+            <h1 className="mt-16 bg-gradient-to-r from-amber-200 to-cyan-400 bg-clip-text p-1 text-center text-4xl font-bold text-transparent md:text-6xl">
               {title}
             </h1>
             <p className="p-4 text-center md:text-lg">{description}</p>
