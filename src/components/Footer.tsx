@@ -11,7 +11,6 @@ export const Footer = () => (
         }
         target="_blank"
       >
-        <span className="mr-2">Made by</span>
         <LogoWide />
       </Link>
     </div>
