@@ -7,11 +7,18 @@ export const Logo = () => (
     height="24"
     alt="ray icon"
     className="mr-2 rounded-md border border-zinc-500"
+    priority
   />
 )
 
 export const LogoWide = () => (
-  <Image src="/rayst-logo-wide.webp" width="99" height="24" alt="ray icon" />
+  <Image
+    src="/rayst-logo-wide.webp"
+    width="99"
+    height="24"
+    alt="ray icon"
+    priority
+  />
 )
 
 export default Logo
