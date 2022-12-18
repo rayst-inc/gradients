@@ -2,23 +2,29 @@ import Image from 'next/image'
 
 export const Logo = () => (
   <Image
-    src="/rayst-logo.webp"
+    src="/logo/rayst-circle.png"
     width="24"
     height="24"
     alt="ray icon"
-    className="mr-2 rounded-md border border-zinc-500"
+    className="mr-4"
+    priority
+  />
+)
+
+export const LogoLarge = () => (
+  <Image
+    src="/logo/rayst-ios.png"
+    width="128"
+    height="128"
+    alt="ray icon"
+    className="mr-2"
     priority
   />
 )
 
 export const LogoWide = () => (
-  <Image
-    src="/rayst-logo-wide.webp"
-    width="99"
-    height="24"
-    alt="ray icon"
-    priority
-  />
+  <div className="grid-row flex items-center justify-center">
+    <Logo />
+    <span className="font-display text-xl font-bold">Rayst</span>
+  </div>
 )
-
-export default Logo
