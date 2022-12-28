@@ -4,6 +4,7 @@ specifiers:
   '@types/node': ^18.11.17
   '@types/react': ^18.0.26
   '@types/react-dom': ^18.0.9
+  '@vercel/analytics': ^0.1.6
   '@vercel/og': ^0.0.21
   api: link:./src/api
   autoprefixer: ^10.4.13
@@ -29,6 +30,7 @@ specifiers:
   utils: link:./src/utils
 
 dependencies:
+  '@vercel/analytics': 0.1.6_react@18.2.0
   '@vercel/og': 0.0.21
   api: link:src/api
   components: link:src/components
@@ -451,6 +453,14 @@ packages:
       '@typescript-eslint/types': 5.43.0
       eslint-visitor-keys: 3.3.0
     dev: true
+
+  /@vercel/analytics/0.1.6_react@18.2.0:
+    resolution: {integrity: sha512-zNd5pj3iDvq8IMBQHa1YRcIteiw6ZiPB8AsONHd8ieFXlNpLqhXfIYnf4WvTfZ7S1NSJ++mIM14aJnNac/VMXQ==}
+    peerDependencies:
+      react: ^16.8||^17||^18
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /@vercel/og/0.0.21:
     resolution: {integrity: sha512-WgMahG5c8UM7xtn/mT+ljUpDMSDnSlu8AXL52JtTwxb1odrd0GWqZg2N1X38wulPj+sCccNpDdFmmAuw0GLc+Q==}

@@ -8,6 +8,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@vercel/analytics": "^0.1.6",
     "@vercel/og": "^0.0.21",
     "api": "link:./src/api",
     "components": "link:./src/components",

@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import { NextSeo } from 'next-seo'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
@@ -20,12 +21,15 @@ export default function App({ Component, pageProps }: AppProps) {
       <NextSeo {...SEO} />
       <Component {...pageProps} />
       {isProd() && (
-        <Script
-          async
-          defer
-          data-website-id="1399c1da-1ee7-4c74-a87b-747bacbe1785"
-          src="https://u.ray.st/u.js"
-        ></Script>
+        <>
+          <Script
+            async
+            defer
+            data-website-id="1399c1da-1ee7-4c74-a87b-747bacbe1785"
+            src="https://u.ray.st/u.js"
+          ></Script>
+          <Analytics />
+        </>
       )}
     </>
   )
