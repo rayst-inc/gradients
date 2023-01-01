@@ -1,4 +1,5 @@
 import { Analytics } from '@vercel/analytics/react'
+import { CloudflareAnalytics } from 'components/CloudflareAnalytics'
 import { NextSeo } from 'next-seo'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
@@ -29,6 +30,7 @@ export default function App({ Component, pageProps }: AppProps) {
             src="https://u.ray.st/u.js"
           ></Script>
           <Analytics />
+          <CloudflareAnalytics token="285569a04b43494a89a47efc05a29737" />
         </>
       )}
     </>
