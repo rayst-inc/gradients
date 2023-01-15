@@ -18,7 +18,7 @@ export const Footer = () => (
       <span className="grid h-4 w-full grid-flow-col place-content-end gap-2">
         <Link href="mailto:a@ray.st">
           <svg
-            className="umami--click-email icon icon-tabler icon-tabler-mail  h-4 w-4 cursor-pointer opacity-50 transition-all hover:opacity-100"
+            className="icon icon-tabler icon-tabler-mail h-4 w-4 cursor-pointer opacity-50 transition-all hover:opacity-100"
             role="button"
             width={24}
             height={24}
@@ -36,7 +36,7 @@ export const Footer = () => (
         </Link>
         <Link href="https://twitter.com/rayst_inc" target="_blank">
           <svg
-            className="umami--click-twitter icon icon-tabler icon-tabler-brand-twitter h-4 w-4 cursor-pointer opacity-50 transition-all hover:opacity-100"
+            className="icon icon-tabler icon-tabler-brand-twitter h-4 w-4 cursor-pointer opacity-50 transition-all hover:opacity-100"
             role="button"
             width={24}
             height={24}
@@ -53,7 +53,7 @@ export const Footer = () => (
         </Link>
         <Link href="https://github.com/rayst-inc" target="_blank">
           <svg
-            className="umami--click-github icon icon-tabler icon-tabler-brand-github h-4 w-4 cursor-pointer opacity-50 transition-all hover:opacity-100"
+            className="icon icon-tabler icon-tabler-brand-github h-4 w-4 cursor-pointer opacity-50 transition-all hover:opacity-100"
             role="button"
             width={24}
             height={24}
@@ -70,7 +70,7 @@ export const Footer = () => (
         </Link>
         <Link href="https://discord.com/invite/GmdkBp9VPX" target="_blank">
           <svg
-            className="umami--click-discord icon icon-tabler icon-tabler-brand-discord h-4 w-4 cursor-pointer opacity-50 transition-all hover:opacity-100"
+            className="icon icon-tabler icon-tabler-brand-discord h-4 w-4 cursor-pointer opacity-50 transition-all hover:opacity-100"
             role="button"
             width={24}
             height={24}

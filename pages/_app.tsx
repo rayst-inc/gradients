@@ -3,7 +3,6 @@ import { CloudflareAnalytics } from 'components/CloudflareAnalytics'
 import { NextSeo } from 'next-seo'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
-import Script from 'next/script'
 import { SEO } from 'src/lib/next-seo'
 import 'styles/globals.css'
 
@@ -23,12 +22,6 @@ export default function App({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
       {isProd() && (
         <>
-          <Script
-            async
-            defer
-            data-website-id="1399c1da-1ee7-4c74-a87b-747bacbe1785"
-            src="https://u.ray.st/u.js"
-          ></Script>
           <Analytics />
           <CloudflareAnalytics token="285569a04b43494a89a47efc05a29737" />
         </>

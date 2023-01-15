@@ -40,7 +40,7 @@ export function HomePage() {
           </div>
           <div className="mt-2 flex place-content-center">
             <a
-              className="umami--click--product-hunt"
+              className=""
               href="https://www.producthunt.com/posts/rayst-gradients?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-rayst&#0045;gradients"
               target="_blank"
               rel="noreferrer"
@@ -60,7 +60,7 @@ export function HomePage() {
                 (i) => (
                   <motion.a
                     key={i}
-                    className={`group grid place-content-center umami--click--${i}-download`}
+                    className={`group grid place-content-center`}
                     whileHover={{ scale: 1.1 }}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -109,7 +109,7 @@ export function HomePage() {
           </p>
           <div className="mt-4 flex place-content-center">
             <iframe
-              className="umami--click--github-star"
+              className=""
               src="https://ghbtns.com/github-btn.html?user=rayst-inc&repo=gradients&type=star&count=false"
               scrolling="0"
               width="54"
