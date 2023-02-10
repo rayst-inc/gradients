@@ -1,40 +1,40 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/node': ^18.11.18
+  '@types/node': ^18.13.0
   '@types/react': ^18.0.27
   '@types/react-dom': ^18.0.10
   '@vercel/analytics': ^0.1.8
-  '@vercel/og': ^0.0.27
+  '@vercel/og': ^0.1.0
   api: link:./src/api
   autoprefixer: ^10.4.13
   components: link:./src/components
   eslint: 8.33.0
   eslint-config-next: 13.1.6
   eslint-config-prettier: ^8.6.0
-  framer-motion: ^9.0.1
+  framer-motion: ^9.0.2
   lib: link:./src/lib
   next: ^13.1.6
   next-seo: ^5.15.0
   pages: link:./pages
   postcss: ^8.4.21
-  prettier: ^2.8.3
+  prettier: ^2.8.4
   prettier-plugin-tailwindcss: ^0.2.2
   react: ^18.2.0
   react-dom: ^18.2.0
   sharp: ^0.31.3
   src: link:./src
   styles: link:./styles
-  tailwindcss: ^3.2.4
+  tailwindcss: ^3.2.6
   typescript: ^4.9.5
   utils: link:./src/utils
 
 dependencies:
   '@vercel/analytics': 0.1.8_react@18.2.0
-  '@vercel/og': 0.0.27
+  '@vercel/og': 0.1.0
   api: link:src/api
   components: link:src/components
-  framer-motion: 9.0.1_biqbaboplfbrettd7655fr4n2y
+  framer-motion: 9.0.2_biqbaboplfbrettd7655fr4n2y
   lib: link:src/lib
   next: 13.1.6_biqbaboplfbrettd7655fr4n2y
   next-seo: 5.15.0_3vryta7zmbcsw4rrqf4axjqggm
@@ -47,7 +47,7 @@ dependencies:
   utils: link:src/utils
 
 devDependencies:
-  '@types/node': 18.11.18
+  '@types/node': 18.13.0
   '@types/react': 18.0.27
   '@types/react-dom': 18.0.10
   autoprefixer: 10.4.13_postcss@8.4.21
@@ -55,9 +55,9 @@ devDependencies:
   eslint-config-next: 13.1.6_4vsywjlpuriuw3tl5oq6zy5a64
   eslint-config-prettier: 8.6.0_eslint@8.33.0
   postcss: 8.4.21
-  prettier: 2.8.3
-  prettier-plugin-tailwindcss: 0.2.2_prettier@2.8.3
-  tailwindcss: 3.2.4_postcss@8.4.21
+  prettier: 2.8.4
+  prettier-plugin-tailwindcss: 0.2.2_prettier@2.8.4
+  tailwindcss: 3.2.6_postcss@8.4.21
   typescript: 4.9.5
 
 packages:
@@ -362,8 +362,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node/18.11.18:
-    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
+  /@types/node/18.13.0:
+    resolution: {integrity: sha512-gC3TazRzGoOnoKAhUx+Q0t8S9Tzs74z7m0ipwGpSqQrleP14hKxP4/JUeEQcD3W1/aIpnWl8pHowI7WokuZpXg==}
     dev: true
 
   /@types/prop-types/15.7.5:
@@ -458,12 +458,12 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@vercel/og/0.0.27:
-    resolution: {integrity: sha512-cUk6HmfLmBOISAA8gvPRNUx3eVOSyXblxiuv3uN9UTxLwdalQzPlHC/0byvTMR1eVi0y1trD5u6um/4xiTqgOQ==}
+  /@vercel/og/0.1.0:
+    resolution: {integrity: sha512-0M7YT3TKd1bsJ/At46B5EMtxgZBixfTQV5VRnkdd8bTiKAGnzw/li+uORU4pvOyyPLoVQJpzuU0Xx+bbAKu2bQ==}
     engines: {node: '>=16'}
     dependencies:
       '@resvg/resvg-wasm': 2.0.0-alpha.4
-      satori: 0.0.46
+      satori: 0.2.2
       yoga-wasm-web: 0.3.0
     dev: false
 
@@ -1350,8 +1350,8 @@ packages:
     resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}
     dev: true
 
-  /framer-motion/9.0.1_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-0EP7+b/hnsbrFOum9zU+23Fq2cJJrLOqv/yJ26fIzK4CC33ZAjXZGi1/XyblbgnUF0cxZ/SEDj5IYHeQo42qNg==}
+  /framer-motion/9.0.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-n7ZdIUBrT1xklowQNRQ6/h54+3ysmz422CP0rrhjE1X2tshiJy0WWQ7tv6y/fcOSQd23htNA9vvbUFLYMQ5lEQ==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
@@ -2129,11 +2129,11 @@ packages:
       postcss: ^8.2.14
     dependencies:
       postcss: 8.4.21
-      postcss-selector-parser: 6.0.10
+      postcss-selector-parser: 6.0.11
     dev: true
 
-  /postcss-selector-parser/6.0.10:
-    resolution: {integrity: sha512-IQ7TZdoaqbT+LCpShg46jnZVlhWD2w6iQYAcYXfHARZ7X1t/UGhhceQDs5X0cGqKvYlHNOuv7Oa1xmb0oQuA3w==}
+  /postcss-selector-parser/6.0.11:
+    resolution: {integrity: sha512-zbARubNdogI9j7WY4nQJBiNqQf3sLS3wCP4WfOidu+p28LofJqDH1tcXypGrcmMHhDk2t9wGhCsYe/+szLTy1g==}
     engines: {node: '>=4'}
     dependencies:
       cssesc: 3.0.0
@@ -2185,7 +2185,7 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-tailwindcss/0.2.2_prettier@2.8.3:
+  /prettier-plugin-tailwindcss/0.2.2_prettier@2.8.4:
     resolution: {integrity: sha512-5RjUbWRe305pUpc48MosoIp6uxZvZxrM6GyOgsbGLTce+ehePKNm7ziW2dLG2air9aXbGuXlHVSQQw4Lbosq3w==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
@@ -2234,11 +2234,11 @@ packages:
       prettier-plugin-twig-melody:
         optional: true
     dependencies:
-      prettier: 2.8.3
+      prettier: 2.8.4
     dev: true
 
-  /prettier/2.8.3:
-    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
+  /prettier/2.8.4:
+    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -2396,8 +2396,8 @@ packages:
       is-regex: 1.1.4
     dev: true
 
-  /satori/0.0.46:
-    resolution: {integrity: sha512-7RfTz38MB0n8tzmRHtUh1y0K7609CLBHpYuyZuh9rpf9FyhOd2in+6EHuqu6ul/Jebn1qD1HdYKtAMjb7uiNAQ==}
+  /satori/0.2.2:
+    resolution: {integrity: sha512-/9A9cMdrkSqFPavObgQAn9737hMnBeKSgf/L5zWm2a6UzwMR2jl5xjrH4LURlJLEXdx/ijOjH0/Q6PUn2Fgpdg==}
     engines: {node: '>=16'}
     dependencies:
       '@shuding/opentype.js': 1.4.0-beta.0
@@ -2592,8 +2592,8 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /tailwindcss/3.2.4_postcss@8.4.21:
-    resolution: {integrity: sha512-AhwtHCKMtR71JgeYDaswmZXhPcW9iuI9Sp2LvZPo9upDZ7231ZJ7eA9RaURbhpXGVlrjX4cFNlB4ieTetEb7hQ==}
+  /tailwindcss/3.2.6_postcss@8.4.21:
+    resolution: {integrity: sha512-BfgQWZrtqowOQMC2bwaSNe7xcIjdDEgixWGYOd6AL0CbKHJlvhfdbINeAW76l1sO+1ov/MJ93ODJ9yluRituIw==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
@@ -2618,7 +2618,7 @@ packages:
       postcss-js: 4.0.0_postcss@8.4.21
       postcss-load-config: 3.1.4_postcss@8.4.21
       postcss-nested: 6.0.0_postcss@8.4.21
-      postcss-selector-parser: 6.0.10
+      postcss-selector-parser: 6.0.11
       postcss-value-parser: 4.2.0
       quick-lru: 5.1.1
       resolve: 1.22.1
