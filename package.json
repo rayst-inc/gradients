@@ -1,6 +1,9 @@
 {
   "name": "gradients",
-  "version": "1.0.0",
+  "engines": {
+    "pnpm": ">= 8",
+    "node": ">= 18"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -8,13 +11,13 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@vercel/analytics": "^0.1.11",
-    "@vercel/og": "^0.5.0",
+    "@vercel/analytics": "^1.0.0",
+    "@vercel/og": "^0.5.3",
     "api": "link:./src/api",
     "components": "link:./src/components",
-    "framer-motion": "^10.11.2",
+    "framer-motion": "^10.12.4",
     "lib": "link:./src/lib",
-    "next": "^13.3.0",
+    "next": "^13.3.1",
     "next-seo": "^6.0.0",
     "pages": "link:./pages",
     "react": "^18.2.0",
@@ -25,17 +28,17 @@
     "utils": "link:./src/utils"
   },
   "devDependencies": {
-    "@types/node": "^18.15.11",
-    "@types/react": "^18.0.33",
+    "@types/node": "^18.16.0",
+    "@types/react": "^18.0.38",
     "@types/react-dom": "^18.0.11",
     "autoprefixer": "^10.4.14",
-    "eslint": "8.37.0",
-    "eslint-config-next": "13.3.0",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.1",
     "eslint-config-prettier": "^8.8.0",
-    "postcss": "^8.4.21",
+    "postcss": "^8.4.23",
     "prettier": "^2.8.7",
     "prettier-plugin-tailwindcss": "^0.2.7",
     "tailwindcss": "^3.3.1",
-    "typescript": "^5.0.3"
+    "typescript": "^5.0.4"
   }
 }
