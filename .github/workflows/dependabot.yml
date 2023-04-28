@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: pnpm/action-setup@v2
         with:
-          version: ^7
+          version: latest
       - uses: actions/checkout@v3
       - run: pnpx npm-check-updates -u
       - run: pnpm i --no-frozen-lockfile
